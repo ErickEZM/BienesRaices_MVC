@@ -1,0 +1,27 @@
+{
+    "name": "personal/bienes_raices",
+    "description": "Creando un proyecto con POO",
+    "autoload": {
+        "psr-4": {
+            "Personal\\BienesRaices\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Erick Martinez",
+            "email": "erickezmtz@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
